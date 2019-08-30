@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of grafana.
 
+## Unreleased
+
+- changes the type to Array on `group_search_base_dns` to match that of `user_search_base_dns` to output to the config correctly
+
 ## 5.1.1 (2019-08-16)
 
 - Fixed `address` appearing as `basic_auth_password` for internal metrics
